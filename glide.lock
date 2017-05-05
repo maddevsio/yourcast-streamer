@@ -1,0 +1,59 @@
+hash: 963214c59d4967db6a78b5a8a386d0486d019f474e984da944dd03941cd34231
+updated: 2017-05-05T14:01:57.535685589+06:00
+imports:
+- name: github.com/andybalholm/cascadia
+  version: 349dd0209470eabd9514242c688c403c0926d266
+- name: github.com/gen1us2k/log
+  version: a9e195e628c0b15dd80b92aff2705da30696ead1
+- name: github.com/labstack/echo
+  version: 1049c9613cd371b7ea8f219404c9a821734781ed
+- name: github.com/labstack/gommon
+  version: 9298d710c664bcd21c454120f63a00fb7d484458
+  subpackages:
+  - color
+  - log
+- name: github.com/mattn/go-colorable
+  version: ded68f7a9561c023e790de24279db7ebf473ea80
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/mxk/go-flowrate
+  version: cca7078d478f8520f85629ad7c68962d31ed7682
+  subpackages:
+  - flowrate
+- name: github.com/otium/ytdl
+  version: 84abf685f7bd7f78afc8090b1c2cbdcd99f1e5ce
+- name: github.com/PuerkitoBio/goquery
+  version: e1271ee34c6a305e38566ecd27ae374944907ee9
+- name: github.com/Sirupsen/logrus
+  version: 5b60b3d3ee017ed00bcd0225fcca7acab767844b
+- name: github.com/urfave/cli
+  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 5a033cc77e57eca05bdb50522851d29e03569cbe
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: feeb485667d1fdabe727840fe00adc22431bc86e
+  subpackages:
+  - context
+  - context/ctxhttp
+  - html
+  - html/atom
+- name: golang.org/x/sys
+  version: 9ccfe848b9db8435a24c424abbc07a921adf1df5
+  subpackages:
+  - unix
+- name: google.golang.org/api
+  version: fbbaff1827317122a8a0e1b24de25df8417ce87b
+  subpackages:
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+  - googleapi/transport
+  - youtube/v3
+testImports: []

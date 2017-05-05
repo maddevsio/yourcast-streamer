@@ -1,0 +1,16 @@
+package: github.com/maddevsio/yourcast-streamer
+import:
+- package: github.com/gen1us2k/log
+- package: github.com/labstack/echo
+  version: v3.1.0
+- package: github.com/mxk/go-flowrate
+  subpackages:
+  - flowrate
+- package: github.com/otium/ytdl
+  version: v0.5.0
+- package: github.com/urfave/cli
+  version: v1.19.1
+- package: google.golang.org/api
+  subpackages:
+  - googleapi/transport
+  - youtube/v3
